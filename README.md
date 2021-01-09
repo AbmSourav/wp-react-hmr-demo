@@ -15,7 +15,7 @@ To start developing with [HMR](https://webpack.js.org/concepts/hot-module-replac
 define( 'WP_LOCAL_DEV', true );
 ```
 
-Now run: `yarn start`
+Now run: `yarn build:dev` and then `yarn start`
 
 If you navigate to the plugin's menu and start changing your React code, you should see the code updates in realtime. Enjoy!
 

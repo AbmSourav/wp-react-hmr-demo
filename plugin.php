@@ -16,7 +16,9 @@ add_action('admin_menu', function () {
         'React HMR',
         'manage_options',
         'react-hmr',
-        'react_hmr_render',
+		'react_hmr_render',
+		'',
+		60
     );
 
     add_action('admin_print_scripts-' . $menu, 'react_hmr_scripts');
